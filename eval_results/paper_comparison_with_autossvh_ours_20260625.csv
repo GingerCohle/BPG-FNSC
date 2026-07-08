@@ -1,0 +1,157 @@
+Dataset,Bit,Method,mAP@5,mAP@20,mAP@40,mAP@60,mAP@80,mAP@100,Avg,Avg_source,Selected_param,Metric_win_count,Source
+ActivityNet,16,BTH,0.116000,0.061000,0.036000,0.026000,0.020000,0.017000,0.036200,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,DKPH,0.102000,0.048000,0.028500,0.020000,0.016000,0.013000,0.028900,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,MCMSH,0.140000,0.068000,0.041000,0.028000,0.021000,0.018000,0.040100,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,ConMH,0.156000,0.081000,0.050000,0.036000,0.029000,0.024000,0.050100,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,S5VH,0.207000,0.117000,0.072000,0.052000,0.041000,0.033000,0.070500,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,RetNet,0.149000,0.080000,0.050000,0.037000,0.029000,0.024000,0.049900,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,RWKV,0.187000,0.101000,0.062000,0.045000,0.035000,0.029000,0.061400,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,MFH,0.060600,0.035600,0.021600,0.015000,0.011000,0.009300,0.020400,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,JTAE,0.078500,0.040300,0.028800,0.018500,0.014500,0.013600,0.026300,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,SSTH,0.062700,0.030800,0.019800,0.014800,0.012500,0.010800,0.020600,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,SSVH,0.072500,0.038900,0.027500,0.020500,0.015000,0.011800,0.025600,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,BerVAE,0.118000,0.063000,0.035000,0.025000,0.019000,0.018000,0.036100,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,NPH,0.108300,0.054700,0.033900,0.024800,0.019600,0.016000,0.034100,reported_by_user,,,user_pasted_baseline
+ActivityNet,16,AutoSSVH,0.176000,0.091000,0.055000,0.040000,0.031000,0.026000,0.069833,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+ActivityNet,16,Ours,0.183467,0.099024,0.060520,0.043424,0.033617,0.027473,0.074587,mean_of_six_displayed_mAP,"r06_p045 (ratio=0.6, prob=0.45)",5,checkpoint/activitynet/AutoSSVH_16bit_bpm_pgafs_shvd_pcdec_fnsdcl_activitynet16_r06_p045_g005_sw002/run_20260616_165502_018703/activitynet_16.pth
+ActivityNet,32,BTH,0.198000,0.108000,0.065000,0.046000,0.036000,0.030000,0.064100,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,DKPH,0.166000,0.092000,0.052000,0.036000,0.028000,0.023000,0.051400,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,MCMSH,0.201000,0.110000,0.066000,0.046000,0.036000,0.030000,0.064600,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,ConMH,0.229000,0.124000,0.075000,0.054000,0.042000,0.035000,0.074400,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,S5VH,0.267000,0.156000,0.097000,0.070000,0.054000,0.044000,0.093600,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,RetNet,0.223000,0.124000,0.078000,0.056000,0.044000,0.036000,0.075900,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,RWKV,0.218000,0.123000,0.074000,0.053000,0.041000,0.034000,0.072600,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,MFH,0.096100,0.057100,0.032900,0.019500,0.016000,0.011100,0.029200,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,JTAE,0.124700,0.065500,0.042200,0.031500,0.024500,0.020100,0.041800,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,SSTH,0.123500,0.061200,0.038400,0.028800,0.022700,0.019200,0.039300,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,SSVH,0.127600,0.071400,0.050700,0.034700,0.027400,0.023300,0.046600,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,BerVAE,0.196000,0.107000,0.064000,0.045000,0.035000,0.030000,0.063100,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,NPH,0.164900,0.089700,0.056200,0.041400,0.032000,0.027100,0.055700,reported_by_user,,,user_pasted_baseline
+ActivityNet,32,AutoSSVH,0.250000,0.136000,0.082000,0.061000,0.049000,0.038000,0.102667,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+ActivityNet,32,Ours,0.251187,0.135583,0.080888,0.057204,0.044074,0.035905,0.100807,mean_of_six_displayed_mAP,"r07_p035 (ratio=0.7, prob=0.35)",3,checkpoint/activitynet/AutoSSVH_32bit_bpm_pgafs_shvd_pcdec_fnsdcl_activitynet32_r07_p035_g005_sw002/run_20260619_144430_383972/activitynet_32.pth
+ActivityNet,64,BTH,0.260000,0.148000,0.088000,0.063000,0.049000,0.040000,0.086500,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,DKPH,0.241000,0.136000,0.078000,0.054000,0.041000,0.033000,0.075600,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,MCMSH,0.260000,0.145000,0.085000,0.060000,0.046000,0.038000,0.083400,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,ConMH,0.267000,0.150000,0.092000,0.066000,0.051000,0.042000,0.089700,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,S5VH,0.285000,0.170000,0.106000,0.076000,0.058000,0.047000,0.101000,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,RetNet,0.280000,0.158000,0.098000,0.071000,0.055000,0.045000,0.095600,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,RWKV,0.249000,0.142000,0.087000,0.062000,0.049000,0.040000,0.084900,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,MFH,0.140200,0.070000,0.037600,0.031100,0.024700,0.021600,0.042800,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,JTAE,0.173200,0.091800,0.057000,0.041000,0.031400,0.025300,0.055600,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,SSTH,0.165200,0.085700,0.051200,0.037300,0.028700,0.024300,0.051600,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,SSVH,0.197200,0.115600,0.064100,0.050800,0.040700,0.033900,0.068400,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,BerVAE,0.261000,0.147000,0.089000,0.065000,0.049000,0.041000,0.087400,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,NPH,0.216600,0.121400,0.074900,0.053300,0.042200,0.034800,0.073200,reported_by_user,,,user_pasted_baseline
+ActivityNet,64,AutoSSVH,0.290000,0.164000,0.098000,0.071000,0.055000,0.045000,0.120500,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+ActivityNet,64,Ours,0.306237,0.167668,0.100578,0.070788,0.054343,0.044105,0.123953,mean_of_six_displayed_mAP,"r03_p025 (ratio=0.3, prob=0.25)",5,checkpoint/activitynet/AutoSSVH_64bit_bpm_pgafs_shvd_pcdec_fnsdcl_activitynet64_r03_p025_g005_sw002/run_20260620_034007_187217/activitynet_64.pth
+FCVID,16,BTH,0.209000,0.121000,0.095000,0.082000,0.074000,0.068000,0.099900,reported_by_user,,,user_pasted_baseline
+FCVID,16,DKPH,0.280000,0.151000,0.117000,0.099000,0.088000,0.079000,0.122700,reported_by_user,,,user_pasted_baseline
+FCVID,16,MCMSH,0.331000,0.209000,0.161000,0.152000,0.140000,0.130000,0.177100,reported_by_user,,,user_pasted_baseline
+FCVID,16,ConMH,0.350000,0.252000,0.216000,0.196000,0.181000,0.169000,0.220300,reported_by_user,,,user_pasted_baseline
+FCVID,16,S5VH,0.376000,0.266000,0.229000,0.207000,0.191000,0.179000,0.233500,reported_by_user,,,user_pasted_baseline
+FCVID,16,RetNet,0.309000,0.198000,0.164000,0.148000,0.137000,0.129000,0.172400,reported_by_user,,,user_pasted_baseline
+FCVID,16,RWKV,0.344000,0.221000,0.180000,0.159000,0.144000,0.132000,0.186000,reported_by_user,,,user_pasted_baseline
+FCVID,16,MFH,0.100000,0.048000,0.039000,0.031000,0.030000,0.025700,0.040600,reported_by_user,,,user_pasted_baseline
+FCVID,16,JTAE,0.148200,0.080500,0.060800,0.050000,0.042100,0.037100,0.062000,reported_by_user,,,user_pasted_baseline
+FCVID,16,SSTH,0.135300,0.073700,0.055300,0.045000,0.039500,0.034700,0.056900,reported_by_user,,,user_pasted_baseline
+FCVID,16,SSVH,0.128200,0.073700,0.055300,0.045200,0.043400,0.040500,0.058900,reported_by_user,,,user_pasted_baseline
+FCVID,16,BerVAE,0.210000,0.125000,0.099000,0.086000,0.078000,0.072000,0.103900,reported_by_user,,,user_pasted_baseline
+FCVID,16,NPH,0.225000,0.140800,0.109700,0.094700,0.084500,0.077400,0.113600,reported_by_user,,,user_pasted_baseline
+FCVID,16,AutoSSVH,0.347000,0.256000,0.225000,0.207000,0.193000,0.180000,0.234667,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+FCVID,16,Ours,0.378807,0.268343,0.231222,0.210029,0.194298,0.181256,0.243992,mean_of_six_displayed_mAP,r05_g005_sw002 (FCVID current trained setting; no 20x sweep),no_sweep,checkpoint/fcv/AutoSSVH_16bit_bpm_pgafs_shvd_pcdec_fnsdcl_r05_g005_sw002/run_20260615_114544_243599/fcv_16.pth
+FCVID,32,BTH,0.410000,0.250000,0.205000,0.182000,0.166000,0.154000,0.214600,reported_by_user,,,user_pasted_baseline
+FCVID,32,DKPH,0.431000,0.265000,0.216000,0.190000,0.171000,0.156000,0.223600,reported_by_user,,,user_pasted_baseline
+FCVID,32,MCMSH,0.457000,0.302000,0.258000,0.235000,0.217000,0.202000,0.267500,reported_by_user,,,user_pasted_baseline
+FCVID,32,ConMH,0.476000,0.332000,0.287000,0.263000,0.245000,0.230000,0.296000,reported_by_user,,,user_pasted_baseline
+FCVID,32,S5VH,0.498000,0.354000,0.308000,0.278000,0.260000,0.241000,0.313300,reported_by_user,,,user_pasted_baseline
+FCVID,32,RetNet,0.457000,0.289000,0.241000,0.217000,0.200000,0.187000,0.252400,reported_by_user,,,user_pasted_baseline
+FCVID,32,RWKV,0.480000,0.334000,0.290000,0.267000,0.249000,0.235000,0.299800,reported_by_user,,,user_pasted_baseline
+FCVID,32,MFH,0.130800,0.085700,0.072900,0.063100,0.061700,0.059800,0.075800,reported_by_user,,,user_pasted_baseline
+FCVID,32,JTAE,0.219300,0.126100,0.095500,0.084700,0.077700,0.072500,0.103900,reported_by_user,,,user_pasted_baseline
+FCVID,32,SSTH,0.200000,0.111500,0.088900,0.078100,0.071500,0.067300,0.095200,reported_by_user,,,user_pasted_baseline
+FCVID,32,SSVH,0.332500,0.183500,0.144500,0.115300,0.106400,0.101000,0.148900,reported_by_user,,,user_pasted_baseline
+FCVID,32,BerVAE,0.410000,0.250000,0.205000,0.182000,0.166000,0.154000,0.214600,reported_by_user,,,user_pasted_baseline
+FCVID,32,NPH,0.386700,0.247100,0.195300,0.170400,0.155300,0.141700,0.203000,reported_by_user,,,user_pasted_baseline
+FCVID,32,AutoSSVH,0.483000,0.336000,0.289000,0.263000,0.244000,0.228000,0.307167,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+FCVID,32,Ours,0.505501,0.351828,0.303271,0.276665,0.256572,0.239852,0.322282,mean_of_six_displayed_mAP,r05_g005_sw002 (FCVID current trained setting; no 20x sweep),no_sweep,checkpoint/fcv/AutoSSVH_32bit_bpm_pgafs_shvd_pcdec_fnsdcl_r05_g005_sw002/run_20260615_114544_243730/fcv_32.pth
+FCVID,64,BTH,0.475000,0.310000,0.260000,0.235000,0.216000,0.202000,0.270600,reported_by_user,,,user_pasted_baseline
+FCVID,64,DKPH,0.490000,0.328000,0.278000,0.250000,0.228000,0.211000,0.285100,reported_by_user,,,user_pasted_baseline
+FCVID,64,MCMSH,0.494000,0.335000,0.288000,0.263000,0.245000,0.230000,0.298400,reported_by_user,,,user_pasted_baseline
+FCVID,64,ConMH,0.524000,0.373000,0.326000,0.301000,0.283000,0.267000,0.336400,reported_by_user,,,user_pasted_baseline
+FCVID,64,S5VH,0.540000,0.388000,0.339000,0.312000,0.290000,0.276000,0.347900,reported_by_user,,,user_pasted_baseline
+FCVID,64,RetNet,0.521000,0.356000,0.305000,0.279000,0.259000,0.243000,0.315900,reported_by_user,,,user_pasted_baseline
+FCVID,64,RWKV,0.520000,0.372000,0.328000,0.304000,0.286000,0.271000,0.338100,reported_by_user,,,user_pasted_baseline
+FCVID,64,MFH,0.203100,0.147200,0.133300,0.120500,0.110300,0.107700,0.133700,reported_by_user,,,user_pasted_baseline
+FCVID,64,JTAE,0.290300,0.197900,0.160000,0.141000,0.129700,0.120000,0.165000,reported_by_user,,,user_pasted_baseline
+FCVID,64,SSTH,0.282100,0.187700,0.154900,0.136400,0.124100,0.114900,0.158600,reported_by_user,,,user_pasted_baseline
+FCVID,64,SSVH,0.422600,0.274900,0.215400,0.190300,0.176900,0.165100,0.227600,reported_by_user,,,user_pasted_baseline
+FCVID,64,BerVAE,0.475000,0.310000,0.260000,0.235000,0.216000,0.202000,0.270600,reported_by_user,,,user_pasted_baseline
+FCVID,64,NPH,0.460000,0.287200,0.238500,0.213300,0.196900,0.184600,0.250000,reported_by_user,,,user_pasted_baseline
+FCVID,64,AutoSSVH,0.539000,0.381000,0.334000,0.309000,0.290000,0.273000,0.354333,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+FCVID,64,Ours,0.544756,0.392097,0.342343,0.314552,0.292908,0.274387,0.360174,mean_of_six_displayed_mAP,r05_g005_sw002 (FCVID current trained setting; no 20x sweep),no_sweep,checkpoint/fcv/AutoSSVH_64bit_bpm_pgafs_shvd_pcdec_fnsdcl_r05_g005_sw002/run_20260615_114544_243474/fcv_64.pth
+UCF101,16,BTH,0.226000,0.175000,0.147000,0.127000,0.113000,0.100000,0.142400,reported_by_user,,,user_pasted_baseline
+UCF101,16,DKPH,0.318000,0.275000,0.242000,0.217000,0.191000,0.168000,0.229800,reported_by_user,,,user_pasted_baseline
+UCF101,16,MCMSH,0.235000,0.167000,0.130000,0.106000,0.088000,0.076000,0.123900,reported_by_user,,,user_pasted_baseline
+UCF101,16,ConMH,0.401000,0.306000,0.245000,0.205000,0.174000,0.150000,0.233200,reported_by_user,,,user_pasted_baseline
+UCF101,16,S5VH,0.491000,0.429000,0.385000,0.352000,0.318000,0.285000,0.370500,reported_by_user,,,user_pasted_baseline
+UCF101,16,RetNet,0.411000,0.337000,0.298000,0.270000,0.242000,0.216000,0.289000,reported_by_user,,,user_pasted_baseline
+UCF101,16,RWKV,0.470000,0.385000,0.333000,0.293000,0.260000,0.230000,0.319100,reported_by_user,,,user_pasted_baseline
+UCF101,16,SSVH,0.360000,0.275000,0.235000,0.195000,0.168000,0.143000,0.218600,reported_by_user,,,user_pasted_baseline
+UCF101,16,BerVAE,0.261000,0.195000,0.154000,0.131000,0.116000,0.103000,0.151900,reported_by_user,,,user_pasted_baseline
+UCF101,16,AutoSSVH,0.423000,0.343000,0.288000,0.244000,0.210000,0.184000,0.282000,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+UCF101,16,Ours,0.438561,0.366869,0.313106,0.266730,0.227931,0.197278,0.301746,mean_of_six_displayed_mAP,"r06_p055 (ratio=0.6, prob=0.55)",4,checkpoint/ucf/AutoSSVH_16bit_bpm_pgafs_shvd_pcdec_fnsdcl_ucf16_r06_p055_g005_sw002/run_20260619_172253_597438/ucf_16.pth
+UCF101,32,BTH,0.394000,0.334000,0.295000,0.264000,0.236000,0.210000,0.282500,reported_by_user,,,user_pasted_baseline
+UCF101,32,DKPH,0.447000,0.383000,0.342000,0.310000,0.274000,0.240000,0.325700,reported_by_user,,,user_pasted_baseline
+UCF101,32,MCMSH,0.407000,0.319000,0.261000,0.219000,0.184000,0.158000,0.244900,reported_by_user,,,user_pasted_baseline
+UCF101,32,ConMH,0.483000,0.381000,0.317000,0.272000,0.235000,0.206000,0.302600,reported_by_user,,,user_pasted_baseline
+UCF101,32,S5VH,0.553000,0.477000,0.432000,0.396000,0.357000,0.318000,0.415200,reported_by_user,,,user_pasted_baseline
+UCF101,32,RetNet,0.522000,0.442000,0.390000,0.354000,0.320000,0.286000,0.378000,reported_by_user,,,user_pasted_baseline
+UCF101,32,RWKV,0.536000,0.455000,0.400000,0.362000,0.326000,0.290000,0.362100,reported_by_user,,,user_pasted_baseline
+UCF101,32,SSVH,0.405000,0.312000,0.256000,0.212000,0.185000,0.176000,0.246300,reported_by_user,,,user_pasted_baseline
+UCF101,32,BerVAE,0.396000,0.302000,0.248000,0.215000,0.188000,0.166000,0.241600,reported_by_user,,,user_pasted_baseline
+UCF101,32,AutoSSVH,0.519000,0.448000,0.396000,0.353000,0.309000,0.269000,0.382333,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+UCF101,32,Ours,0.549745,0.475387,0.416246,0.366596,0.316500,0.272295,0.399462,mean_of_six_displayed_mAP,"r06_p025 (ratio=0.6, prob=0.25)",2,checkpoint/ucf/AutoSSVH_32bit_bpm_pgafs_shvd_pcdec_fnsdcl_ucf32_r06_p025_g005_sw002/run_20260621_092820_625239/ucf_32.pth
+UCF101,64,BTH,0.500000,0.441000,0.401000,0.369000,0.334000,0.298000,0.384800,reported_by_user,,,user_pasted_baseline
+UCF101,64,DKPH,0.516000,0.453000,0.412000,0.375000,0.336000,0.296000,0.391300,reported_by_user,,,user_pasted_baseline
+UCF101,64,MCMSH,0.508000,0.423000,0.360000,0.310000,0.267000,0.231000,0.337500,reported_by_user,,,user_pasted_baseline
+UCF101,64,ConMH,0.555000,0.456000,0.390000,0.343000,0.302000,0.266000,0.373600,reported_by_user,,,user_pasted_baseline
+UCF101,64,S5VH,0.579000,0.505000,0.462000,0.427000,0.389000,0.349000,0.445600,reported_by_user,,,user_pasted_baseline
+UCF101,64,RetNet,0.576000,0.489000,0.434000,0.392000,0.353000,0.316000,0.418100,reported_by_user,,,user_pasted_baseline
+UCF101,64,RWKV,0.580000,0.501000,0.453000,0.416000,0.378000,0.337000,0.437100,reported_by_user,,,user_pasted_baseline
+UCF101,64,SSVH,0.469000,0.361000,0.290000,0.255000,0.214000,0.203000,0.285700,reported_by_user,,,user_pasted_baseline
+UCF101,64,BerVAE,0.463000,0.365000,0.307000,0.266000,0.233000,0.205000,0.295000,reported_by_user,,,user_pasted_baseline
+UCF101,64,AutoSSVH,0.570000,0.500000,0.452000,0.413000,0.373000,0.329000,0.439500,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+UCF101,64,Ours,0.590889,0.517527,0.460946,0.412354,0.363179,0.316538,0.443572,mean_of_six_displayed_mAP,"r06_p055 (ratio=0.6, prob=0.55)",6,checkpoint/ucf/AutoSSVH_64bit_bpm_pgafs_shvd_pcdec_fnsdcl_ucf64_r06_p055_g005_sw002/run_20260622_032815_593440/ucf_64.pth
+HMDB51,16,BTH,0.113000,0.083000,0.060000,0.051000,0.043000,0.038000,0.060100,reported_by_user,,,user_pasted_baseline
+HMDB51,16,DKPH,0.133000,0.099000,0.082000,0.066000,0.055000,0.046000,0.075200,reported_by_user,,,user_pasted_baseline
+HMDB51,16,MCMSH,0.116000,0.069000,0.048000,0.039000,0.032000,0.028000,0.048800,reported_by_user,,,user_pasted_baseline
+HMDB51,16,ConMH,0.140000,0.092000,0.067000,0.054000,0.045000,0.039000,0.065900,reported_by_user,,,user_pasted_baseline
+HMDB51,16,S5VH,0.206000,0.150000,0.119000,0.097000,0.079000,0.067000,0.111200,reported_by_user,,,user_pasted_baseline
+HMDB51,16,RetNet,0.185000,0.126000,0.097000,0.079000,0.067000,0.058000,0.094100,reported_by_user,,,user_pasted_baseline
+HMDB51,16,RWKV,0.188000,0.123000,0.091000,0.073000,0.061000,0.052000,0.088700,reported_by_user,,,user_pasted_baseline
+HMDB51,16,SSVH,0.116600,0.076500,0.053500,0.041900,0.036200,0.031100,0.053100,reported_by_user,,,user_pasted_baseline
+HMDB51,16,BerVAE,0.130000,0.083000,0.062000,0.050000,0.043000,0.038000,0.061600,reported_by_user,,,user_pasted_baseline
+HMDB51,16,AutoSSVH,0.161000,0.113000,0.081000,0.064000,0.053000,0.045000,0.086167,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+HMDB51,16,Ours,0.179891,0.110484,0.077407,0.058837,0.047496,0.040777,0.085815,mean_of_six_displayed_mAP,"r06_p045 (ratio=0.6, prob=0.45)",4,checkpoint/hmdb/AutoSSVH_16bit_bpm_pgafs_shvd_pcdec_fnsdcl_hmdb16_r06_p045_g005_sw002/run_20260616_055551_526881/hmdb_16.pth
+HMDB51,32,BTH,0.173000,0.125000,0.099000,0.082000,0.069000,0.060000,0.094800,reported_by_user,,,user_pasted_baseline
+HMDB51,32,DKPH,0.153000,0.120000,0.098000,0.080000,0.068000,0.059000,0.091300,reported_by_user,,,user_pasted_baseline
+HMDB51,32,MCMSH,0.159000,0.099000,0.072000,0.058000,0.049000,0.042000,0.071600,reported_by_user,,,user_pasted_baseline
+HMDB51,32,ConMH,0.209000,0.137000,0.100000,0.079000,0.065000,0.056000,0.096800,reported_by_user,,,user_pasted_baseline
+HMDB51,32,S5VH,0.244000,0.175000,0.139000,0.112000,0.092000,0.078000,0.129700,reported_by_user,,,user_pasted_baseline
+HMDB51,32,RetNet,0.245000,0.169000,0.129000,0.104000,0.087000,0.075000,0.108100,reported_by_user,,,user_pasted_baseline
+HMDB51,32,RWKV,0.237000,0.164000,0.127000,0.103000,0.085000,0.072000,0.105600,reported_by_user,,,user_pasted_baseline
+HMDB51,32,SSVH,0.151900,0.095000,0.068100,0.054800,0.040600,0.037400,0.065900,reported_by_user,,,user_pasted_baseline
+HMDB51,32,BerVAE,0.188000,0.123000,0.091000,0.073000,0.061000,0.053000,0.089000,reported_by_user,,,user_pasted_baseline
+HMDB51,32,AutoSSVH,0.227000,0.163000,0.123000,0.097000,0.081000,0.069000,0.126667,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+HMDB51,32,Ours,0.225887,0.151340,0.108049,0.083229,0.067408,0.056606,0.115420,mean_of_six_displayed_mAP,"r05_p045 (ratio=0.5, prob=0.45)",5,checkpoint/hmdb/AutoSSVH_32bit_bpm_pgafs_shvd_pcdec_fnsdcl_hmdb32_r05_p045_g005_sw002/run_20260617_023401_364639/hmdb_32.pth
+HMDB51,64,BTH,0.199000,0.137000,0.104000,0.085000,0.071000,0.061000,0.100700,reported_by_user,,,user_pasted_baseline
+HMDB51,64,DKPH,0.189000,0.135000,0.107000,0.088000,0.074000,0.064000,0.102200,reported_by_user,,,user_pasted_baseline
+HMDB51,64,MCMSH,0.200000,0.134000,0.099000,0.090000,0.060000,0.057000,0.096700,reported_by_user,,,user_pasted_baseline
+HMDB51,64,ConMH,0.234000,0.159000,0.116000,0.091000,0.075000,0.064000,0.111100,reported_by_user,,,user_pasted_baseline
+HMDB51,64,S5VH,0.277000,0.199000,0.156000,0.126000,0.103000,0.087000,0.146100,reported_by_user,,,user_pasted_baseline
+HMDB51,64,RetNet,0.267000,0.187000,0.143000,0.117000,0.097000,0.084000,0.137700,reported_by_user,,,user_pasted_baseline
+HMDB51,64,RWKV,0.262000,0.186000,0.145000,0.119000,0.099000,0.085000,0.138600,reported_by_user,,,user_pasted_baseline
+HMDB51,64,SSVH,0.169600,0.103800,0.073500,0.058600,0.042800,0.040400,0.071300,reported_by_user,,,user_pasted_baseline
+HMDB51,64,BerVAE,0.225000,0.150000,0.112000,0.089000,0.074000,0.064000,0.108100,reported_by_user,,,user_pasted_baseline
+HMDB51,64,AutoSSVH,0.256000,0.175000,0.137000,0.111000,0.090000,0.076000,0.140833,mean_of_six_displayed_mAP,reported AutoSSVH result,,user_provided_autossvh
+HMDB51,64,Ours,0.259715,0.181656,0.136906,0.108749,0.089426,0.075467,0.141987,mean_of_six_displayed_mAP,"r05_p055 (ratio=0.5, prob=0.55)",5,checkpoint/hmdb/AutoSSVH_64bit_bpm_pgafs_shvd_pcdec_fnsdcl_hmdb64_r05_p055_g005_sw002/run_20260617_023554_696658/hmdb_64.pth

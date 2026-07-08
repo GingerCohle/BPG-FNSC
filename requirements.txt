@@ -1,0 +1,18 @@
+# AutoSSVH environment for Python 3.11.8
+# PyTorch 2.0.1 / torchvision 0.15.2 with CUDA 11.8 wheels.
+
+numpy==1.26.4
+
+# README pins scipy==1.5.4 and h5py==3.1.0, but those old releases do not
+# provide practical Python 3.11 wheels. These versions keep the same APIs used
+# by this repo while installing cleanly on Python 3.11.
+scipy==1.11.4
+h5py==3.10.0
+
+addict==2.4.0
+pandas==2.2.2
+einops==0.8.0
+
+# The code calls faiss.StandardGpuResources(), so CPU-only FAISS is not enough.
+# faiss-gpu-cu11 imports as "faiss" and matches the CUDA 11.x PyTorch wheel.
+faiss-gpu-cu11==1.8.0.2
